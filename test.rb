@@ -14,4 +14,10 @@ def euclidiana (usuario1, usuario2)
   0
 end
 
+def getSimilares(usuario)
+    ratings = Test.new.ratings
+    ratings.map {|k,v| euclidiana(usuario, k) unless k == usuario}.compact!.sort.reverse
+end
+
 p euclidiana('Ana', 'Marcos')
+p getSimilares('Ana')

@@ -19,37 +19,37 @@ self.ratings = {'Ana' =>
                    'Norbit' => false},
 
                 'Pedro' =>
-                  {'Freddy x Jason' => 2.5,
-                   'O Ultimato Bourne' => 3.0,
-                   'Exterminador do Futuro' => 3.5,
-                   'Star Wars' => 4.0},
+                  {'Freddy x Jason' => true,
+                   'O Ultimato Bourne' => false,
+                   'Exterminador do Futuro' => false,
+                   'Star Wars' => false},
 
                 'Claudia' =>
-                  {'O Ultimato Bourne' => 3.5,
-                   'Star Trek' => 3.0,
-                   'Star Wars' => 4.5,
-                   'Exterminador do Futuro' => 4.0,
-                   'Norbit' => 2.5},
+                  {'O Ultimato Bourne' => false,
+                   'Star Trek' => true,
+                   'Star Wars' => false,
+                   'Exterminador do Futuro' => true,
+                   'Norbit' => false},
 
                 'Adriano' =>
-                  {'Freddy x Jason' => 3.0,
-                   'O Ultimato Bourne' => 4.0,
-                   'Star Trek' => 2.0,
-                   'Exterminador do Futuro' => 3.0,
-                   'Star Wars' => 3.0,
-                   'Norbit' => 2.0},
+                  {'Freddy x Jason' => false,
+                   'O Ultimato Bourne' => true,
+                   'Star Trek' => true,
+                   'Exterminador do Futuro' => false,
+                   'Star Wars' => true,
+                   'Norbit' => true},
 
                 'Janaina' =>
-                  {'Freddy x Jason' => 3.0,
-                   'O Ultimato Bourne' => 4.0,
-                   'Star Wars' => 3.0,
-                   'Exterminador do Futuro' => 5.0,
-                   'Norbit' => 3.5},
+                  {'Freddy x Jason' => true,
+                   'O Ultimato Bourne' => true,
+                   'Star Wars' => true,
+                   'Exterminador do Futuro' => true,
+                   'Norbit' => false},
 
                 'Leonardo' =>
-                  {'O Ultimato Bourne' => 4.5,
-                   'Norbit' => 1.0,
-                   'Exterminador do Futuro' => 4.0}
+                  {'O Ultimato Bourne' => false,
+                   'Norbit' => false,
+                   'Exterminador do Futuro' => false}
 }
 end
 end
